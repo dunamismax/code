@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 400px; /* Same as canvas width */
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+#scoreDisplay {
+  font-size: 18px;
+  color: #333;
+}
+
+#gameCanvas {
+  border: 1px solid #ccc;
+  background-color: #ffffff; /* Make canvas obviously distinct if needed */
+}
+
+.instructions {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
